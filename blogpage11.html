@@ -1,0 +1,318 @@
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgba(155, 155, 155, 0.615);
+        }
+
+        .wrapper {
+            height: 100vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+            perspective: 10px;
+            scroll-behavior: smooth;
+        }
+
+        #logo {
+            margin-top: .5%;
+            padding: 0px;
+            width: 250px;
+            margin-left: 9%;
+        }
+
+        .headerr {
+            position: relative;
+            width: 100%;
+            height: 8%;
+            padding: 0 0%;
+            background-image: linear-gradient(rgb(44, 0, 68), rgb(166, 0, 255));
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+            background-color: #85b771;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            /* required */
+            z-index: 100;
+            background-image: linear-gradient(rgb(166, 0, 255), rgb(119, 75, 143));
+
+        }
+
+        .header-item {
+            padding: 1.5%;
+        }
+
+        .blogdiv {
+            max-width: 50%;
+            border-radius: 15px;
+        }
+
+        .blogdiv {
+            left: 7%;
+            top: 2%;
+            float: left;
+            position: relative;
+            padding: 20px;
+        }
+
+
+        .singleblog {
+            max-width: 100%;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 15px;
+        }
+
+        .blogh {
+            position: relative;
+            font-size: 48px;
+        }
+
+        .blogdetail {
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        .blogpic img {
+            width: 100%;
+        }
+
+        .blogcontent {
+            margin-top: 30px;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .sidecontent {
+            position: relative;
+            max-width: 25%;
+            float: left;
+            left: 15%;
+            top: 12%;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 15px;
+        }
+
+        .sideimg img {
+            max-width: 30%;
+            border: 1px solid black;
+            border-radius: 30%;
+            left: 35%;
+            position: relative;
+            margin-top: 5%;
+        }
+
+        .sidetext {
+            padding: 7%;
+            font-size: 20px;
+        }
+
+        .footer1 {
+            width: 100%;
+            height: auto;
+            min-height: 40%;
+            background-image: linear-gradient(rgba(54, 0, 83, 0.985), black);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            float: left;
+        }
+
+        .leftside {
+            align-items: center;
+            justify-content: center;
+            float: right;
+            margin-left: 8%;
+
+        }
+
+        .leftsidemid {
+            float: left;
+            margin-left: 110px;
+
+
+        }
+
+
+        .rightmid {
+            float: left;
+            margin-left: 8%;
+
+
+        }
+
+        .footquote {
+            max-width: 200px;
+        }
+
+        .rightside {
+            float: left;
+            margin-left: 8%;
+            top: 500px;
+        }
+
+        .fotcent {
+            padding-top: 50px;
+            margin-right: 8%;
+        }
+
+        #foottitle {
+            font-size: 30px;
+            color: white;
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #footsearch {
+            width: 250px;
+            height: 35px;
+            margin-left: 15px;
+            margin-top: 30px;
+            border-radius: 7px;
+        }
+
+        #footbutton {
+            width: 120px;
+            height: 35px;
+            margin-left: 80px;
+            margin-top: 8px;
+            border-radius: 7px;
+        }
+
+        #footsec,
+        li a {
+            font-size: 20px;
+            display: inline-block;
+            list-style: none;
+            margin: 0px 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            color: white;
+        }
+
+        .footlogo1 {
+            width: 50px;
+            float: left;
+            margin-right: 2px;
+        }
+
+        .footlogo2 {
+            width: 50px;
+            float: left;
+            margin-right: 2px;
+        }
+
+        .footlogo3 {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            margin: 0;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--top shadow image-->
+        <div class="headerr">
+            <img src="assests/logo2.png" id="logo">
+        </div>
+        <div class="header">
+            <div class="home header-item"><a href="file:///C:/Users/amans/Desktop/random%203/parallax/index.html">HOME</a></div>
+            <div class="blog header-item"><a href="file:///C:/Users/amans/Desktop/random%203/parallax/blogpage11.html">BLOG</a></div>
+            <div class="contact header-item"><a href="file:///C:/Users/amans/Desktop/random%203/parallax/index.html#6">CONTACT</a></div>
+        </div>
+        <div class="blogdiv">
+            <div class="singleblog">
+                <div class="blogh">New Entry in the World of Music</div>
+                <div class="blogdetail">Ben Marks &emsp;&emsp;&emsp;&emsp; October 19 2022</div>
+                <div class="blogpic"><img src="assests/lflute.webp" alt=""></div>
+                <div class="blogcontent">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quod
+                    minus blanditiis error debitis necessitatibus omnis autem eius, beatae explicabo, dolore nemo
+                    delectus recusandae animi. Totam obcaecati provident delectus quos!</div>
+            </div>
+            <div class="singleblog">
+                <div class="blogh">Guitar String and its Chords</div>
+                <div class="blogdetail">Maria Banks &emsp;&emsp;&emsp;&emsp; Novermber 1 2022</div>
+                <div class="blogpic"><img src="assests/lguitar.jpg" alt=""></div>
+                <div class="blogcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis
+                    accusantium, ex quasi quis nesciunt eveniet reprehenderit consectetur molestiae libero delectus
+                    maiores ea quos tempora deserunt quidem sed nobis voluptas.</div>
+            </div>
+            <div class="singleblog">
+                <div class="blogh">Music and its Genre</div>
+                <div class="blogdetail">Kiwi James &emsp;&emsp;&emsp;&emsp; October 8 2022</div>
+                <div class="blogpic"><img src="assests/lukulele.jpg" alt=""></div>
+                <div class="blogcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste animi, quo
+                    reiciendis natus modi expedita voluptate eaque. Voluptatem qui odit officiis consectetur quaerat ad
+                    unde, iste in autem. Animi, aspernatur?</div>
+            </div>
+        </div>
+        <div class="sidecontent">
+            <div class="sideimg"><img src="assests/guitar.png" alt=""></div>
+            <div class="clear"></div>
+            <div class="sidetext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, debitis accusantium
+                veniam sunt id minus voluptatibus nam quae iure. Officia repellendus ipsa minus debitis nobis officiis
+                tenetur consequuntur illum facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                perferendis consequuntur, harum enim vel incidunt ab illo non explicabo, praesentium soluta libero
+                aspernatur similique vero, eveniet modi qui voluptates fugit! Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Soluta earum excepturi quia officiis cum dolore, iste quo modi quidem distinctio ut
+                assumenda amet perspiciatis asperiores natus libero aspernatur, sapiente ullam.</div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer1" id="6">
+            <div class="fotcent">
+                <div class="leftside">
+                    <h1 id="foottitle">SEARCH MUSICOLOGY</h1>
+                    <input type="textbox" id="footsearch"><br>
+                    <button id="footbutton"> search</button>
+                </div>
+                <div class="leftsidemid" id="">
+                    <ul id="footsec" class="">
+                        <li id="" class=""><a href="">About</a></li>
+                        <li id="" class=""><a href="">Contact Us</a></li>
+                        <li id="" class=""><a href="">Resources</a></li>
+                        <li id="" class=""><a href="">Privacy Policy</a></li>
+                        <li id="" class=""><a href="">Terms of Use</a></li>
+                        <li id="" class=""><a href="">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+                <div class="rightmid" id="">
+                    <h3 id="foottitle">MUSICOLOGY LLC</h3>
+                    <div class="footquote">
+                        <p>Shares useful info and actionable insights in the form of reviews, guides,
+                            tips and tricks that will help make your musical journey a success story.</p>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <h3 id="foottitle">Follow Us</h3>
+                    <div class="" id="">
+                        <a href=""><img class="footlogo1" src="assests/facebook.png" alt="facebook"></a></li>
+                        <a href=""><img class="footlogo2" src="assests/instagram.webp" alt="instagram"></a></li>
+                        <a href=""><img class="footlogo3" src="assests/youtube.png" alt="youtube"></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
